@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="plan_complete_hint">Completed %d/%d</string>
+    <string name="today">Today</string>
+</resources>
