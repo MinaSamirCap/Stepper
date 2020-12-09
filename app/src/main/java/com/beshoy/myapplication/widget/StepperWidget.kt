@@ -42,6 +42,7 @@ class StepperWidget @JvmOverloads constructor(
 
         adapter = StepperAdapter()
         binding.recyclerView.adapter = adapter
+        binding.recyclerView.itemAnimator = null
     }
 
     private fun calculateItemWidth(screenWidth: Int): Int {
